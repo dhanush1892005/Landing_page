@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #111827;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, #3b82f6, #06b6d4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    margin-top: 25px;
+    padding: 12px 35px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    color: #2563eb;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Sections */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+/* Features */
+.features {
+    padding: 70px 40px;
+    background: #f8fafc;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* Pricing */
+.pricing {
+    padding: 70px 40px;
+}
+
+.price-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background: white;
+    padding: 30px;
+    width: 280px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.highlight {
+    border: 3px solid #2563eb;
+}
+
+.price {
+    font-size: 32px;
+    margin: 15px 0;
+    color: #2563eb;
+}
+
+.price-card ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.price-card button {
+    padding: 10px 25px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* CTA */
+.cta {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 12px 35px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 25px;
+    color: black;
+}
+
+/* Footer */
+footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
